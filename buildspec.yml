@@ -7,8 +7,8 @@ phases:
             - curl -sL https://deb.nodesource.com/setup_12.x | bash -
             - apt-get install -y nodejs
             - echo installing yarn...
-            - curl -s5 https://dl.yarnpkg.con/debian/pubkey.gpg | apt-key add -
-            - echo "deb https://d1.yarnpkg.con/debian/ stable main” | tee /etc/apt/sources.list.d/yarn.list
+            - curl -s5 https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+            - echo "deb https://d1.yarnpkg.com/debian/ stable main” | tee /etc/apt/sources.list.d/yarn.list
             - apt install --no-install-recommends yarn
     pre_build:
          commands:
